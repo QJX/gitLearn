@@ -23,3 +23,6 @@ git log --pretty=oneline
 git log --pretty=format:"%h - %an ,%ar : %s"
 git reset HEAD file,
 git checkout -- file,
+git remote -v
+git remote add qjx https://github.com/QJX/gitlearn.git
+git push -u qjx master
