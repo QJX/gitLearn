@@ -1,0 +1,19 @@
+git config --global user.name caogen
+git config --global user.email caogen@caogen.com
+git config --global core.editor vim
+git config --global merge.tool vimdiff
+git config --list
+
+git init
+git clone git://.....
+git status
+git add file
+.gitignore
+git diff
+git diff --staged or --cached
+git commit
+git commit -m msg
+git commit -a
+git rm file
+git rm -f file
+git rm --cached file
