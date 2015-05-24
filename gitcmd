@@ -21,3 +21,5 @@ git rm --cached file
 git log -p -2
 git log --pretty=oneline
 git log --pretty=format:"%h - %an ,%ar : %s"
+git reset HEAD file,
+git checkout -- file,
