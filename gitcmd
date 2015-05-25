@@ -36,3 +36,4 @@ git show tagname
 git tag -v tagname 
 git push name tagname
 git push name --tags
+git config --global alias.unstage reset HEAD --
