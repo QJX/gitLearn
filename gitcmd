@@ -28,3 +28,11 @@ git remote add qjx https://github.com/QJX/gitlearn.git
 git push -u qjx master
 git fetch name
 git remote rm name
+git tag
+git tag -l 
+git tag tagname 
+git tag -a/s tagname -m msg
+git show tagname
+git tag -v tagname 
+git push name tagname
+git push name --tags
