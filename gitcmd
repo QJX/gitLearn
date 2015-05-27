@@ -47,3 +47,6 @@ git checkout branchname
 git checkout -b branchname
 git merge branchname
 git mergetool
+git rebase master
+git rebase master branchname
+git rebase --onto master branchname1 branchname2
