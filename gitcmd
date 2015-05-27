@@ -27,3 +27,4 @@ git remote -v
 git remote add qjx https://github.com/QJX/gitlearn.git
 git push -u qjx master
 git fetch name 
+git merge branchname
