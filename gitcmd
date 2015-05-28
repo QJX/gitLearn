@@ -50,4 +50,8 @@ git mergetool
 git rebase master
 git rebase master branchname
 git rebase --onto master branchname1 branchname2
+
+### server cmd
 git init --bare
+git clone --bare path name.git
+git clone name.git projname
